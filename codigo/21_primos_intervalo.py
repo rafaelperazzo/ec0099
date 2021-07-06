@@ -1,3 +1,6 @@
+'''
+Escreva um programa em Python que mostre todos os números primos entre 2 e n. 
+'''
 n = int(input('Digite n: '))
 
 for numero in range (2,n+1,1):

@@ -1,3 +1,6 @@
+'''
+ Dados n números inteiros positivos, calcular a soma dos que são primos.
+'''
 n = int(input('Digite n: '))
 soma = 0
 for i in range(0,n,1):
