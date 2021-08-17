@@ -5,6 +5,8 @@ def iguais(a,b):
     for i in range(0,len(a),1):
         if a[i]==b[i]:
             contador = contador + 1
+    percentual = (contador/len(a))*100
+    print(percentual)
     if (contador==len(a)):
         return (True)
     else:
