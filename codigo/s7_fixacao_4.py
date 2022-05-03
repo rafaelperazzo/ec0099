@@ -8,7 +8,7 @@ while(temp>0):
     temp = temp//10
     digitosP = digitosP + 1
 
-#Verificando se é subnumero
+#Verificando se p é subnumero de q
 contador = 0
 while(q>0):
     resto = q%(10**digitosP)
